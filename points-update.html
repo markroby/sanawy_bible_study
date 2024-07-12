@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanawy Bible Study: Points</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon"  href="logo/Thanawi.png">
+</head>
+<body>
+    <div class="container">
+        <div >
+            <img src="logo/Thanawi.png" alt="Logo" class="logo">
+        </div>
+        <header>
+            <!-- <img src="logo/Thanawi.png" alt="Logo" class="logo"> -->
+            <h1>Update Student Points</h1>
+        </header>
+        <form id="pointsForm">
+            <div class="form-group">
+                <label for="studentSelect">Select Student:</label>
+                <select id="studentSelect" required></select>
+            </div>
+            <div class="form-group">
+                <input type="checkbox" id="attendance" value="1">
+                <label for="attendance">Attendance (+1)</label>
+            </div>
+            <div class="form-group">
+                <input type="checkbox" id="bibleChurch" value="1">
+                <label for="bibleChurch">Bible (Church) (+1)</label>
+            </div>
+            <div class="form-group">
+                <input type="checkbox" id="bible" value="3">
+                <label for="bible">Bible (+3)</label>
+            </div>
+            <div class="form-group">
+                <input type="checkbox" id="task" value="5">
+                <label for="task">Task (+5)</label>
+            </div>
+            <div class="form-group">
+                <input type="checkbox" id="friend" value="2">
+                <label for="friend">Friend (+2)</label>
+            </div>
+            <div class="form-group">
+                <input type="checkbox" id="contest" value="150">
+                <label for="contest">Contest (+150)</label>
+            </div>
+            <div class="form-group">
+                <input type="checkbox" id="quiz" value="120">
+                <label for="quiz">Quiz (+120)</label>
+            </div>
+            <!-- <button type="submit">Update Points</button> -->
+            <button type="submit">add Points</button>
+            <!-- <button type="button" id="resetPoints">Reset Points</button> -->
+            <!-- <button type="button" id="clearAllData">clearAllData Points</button> -->
+        </form>
+        <a href="ranking-display.html" class="link-button">View Rankings and Chart</a>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
